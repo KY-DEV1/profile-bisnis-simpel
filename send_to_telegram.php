@@ -29,9 +29,9 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
 // ================= KONFIGURASI TELEGRAM ================= //
 // Ganti dengan token bot Telegram Anda
-$botToken = '7645420089:AAEQv62GgAF_0ip7IFkNn3eU3UdnPzJZ73E';
+$botToken = '-';
 // Ganti dengan chat ID tujuan
-$chatId = '6012101444';
+$chatId = '-';
 
 // Format pesan
 $text = urlencode("📨 *PESAN BARU DARI WEBSITE*
